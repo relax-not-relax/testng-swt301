@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ParamTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="test1(failed)">
+    <parameter name="number" value="9"/>
+    <classes>
+      <class name="ParamTestNGWithParameterized">
+        <methods>
+          <include name="parameterTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ParamTestNGWithParameterized -->
+    </classes>
+  </test> <!-- test1(failed) -->
+</suite> <!-- Failed suite [ParamTest] -->
